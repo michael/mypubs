@@ -1,0 +1,77 @@
+{
+  "id": "49fdf994d753af1d9218d8d20f27ea22",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "49fdf994d753af1d9218d8d20f27ea22",
+      "creator": "",
+      "title": "sdfgsdfgsdfg",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-02-27T14:01:00.277Z",
+      "updated_at": "2014-02-27T14:01:43.468Z",
+      "published_on": "2014-02-27T14:01:43.467Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": []
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "Start typingsdfgsfdgsdf sdfg sdfgsdfgs dfgsdfgs fdgsdfgsdfg"
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "John Doe",
+      "role": "author",
+      "organization": "ACME",
+      "image": "",
+      "email": "me@example.com"
+    }
+  }
+}
